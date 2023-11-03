@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'SendOTP',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -112,6 +113,8 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
+API_KEY = '12948311-7a1c-11ee-8cbb-0200cd936042'
 
 
 # Static files (CSS, JavaScript, Images)
