@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-01nj3fj5r!2nf1xn&05^-llsdkm(yopa(@#-*q_+&2!^g9^mb*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+AUTH_USER_MODEL = 'SendOTP.User'
 ALLOWED_HOSTS = []
 
 
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'SendOTP',
 ]
 
 MIDDLEWARE = [
